@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #d8f8ff;
+}
+/* header section starts from here */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+#show{
+    margin: 100px;
+    background-color: aliceblue;
+    height: 70px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#show span{
+    margin: 5px;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+/* buttons section starts from here */
+#btns{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn{
+    height: 30px;
+    width: 120px;
+    margin: 10px;
+    background-image: linear-gradient(to right,#8ae4f8,#dc6cc3);
+}
